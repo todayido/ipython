@@ -3,3 +3,4 @@ def fun(flag):
 
 s = raw_input("input something:")
 fun(s)
+fun(s)
