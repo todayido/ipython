@@ -6,7 +6,7 @@
 fo = open("test.txt", "a+")
 # 读取文件内容
 fo.write("123")
-# flush数据
+# 提交更新
 fo.flush()
 content = fo.read()
 # 关闭文件
