@@ -12,4 +12,7 @@ def __print__ath(path):
         print __file_path
 
 
-__print__ath("../test003")
+# __print__ath("../test003")
+
+for path, d, name in os.walk("../test003"):
+    print path, name
