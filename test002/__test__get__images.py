@@ -14,10 +14,10 @@ def __get_images(html):
     __img__src = re.findall(__img__re, html)
     x = 0
     for __img in __img__src:
-        if x > 50:
+        if x > 80:
             urllib.urlretrieve(__img, '%s.jpg' % x)
         x += 1
-        print x
+        print "%d.jpg" % x
     return __img__src
 
 
