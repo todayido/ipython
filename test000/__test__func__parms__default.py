@@ -4,7 +4,6 @@
 
 def a(x="圣代", y="草莓"):
     print "here is a ", x, "flavor: ", y
-sssssssssss
 
 # = raw_input("请输入你要什么(圣代，甜筒)：")
 # b = raw_input("请输入你要什么口味的：")
